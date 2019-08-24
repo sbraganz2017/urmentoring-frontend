@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* Estilo de la imagen de fondo en la ruta localhost:3000/estudiante */
+
+.div-index {
+  height: -webkit-fill-available;
+  background-image: url("./img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Estilo que me permite que se muestre por completo el numero prefijo del pais */
+
+.ant-select-selection-selected-value {
+  overflow: visible!important;
+  overflow-x: visible!important;
+  overflow-y: visible!important;
+}
+
+/* Intento alinear la foto al centro */
+
+.foto-perfil-estudiante {
+  display: flex!important;
+  align-items: center!important;
+  justify-content: center!important;
+}
+
+/*Estilos Children International*/
+
+/* Estilo LayoutLoginPage */
+
+.page {
+  background-color: white;
+}
+
+/*Estilo del titulo de la pagina de login*/
+
+.titulo-login {
+  text-align: center;
+  color: rgb(167, 162, 162);
+  font-size: 16px;
+}
+
+.ant-card {
+  width: 300px;
+  height: 300px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
